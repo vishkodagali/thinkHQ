@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-open-sans: 'Open Sans', sans-serif;
+  --font-eb-garamond: 'EB Garamond', serif;
+  --collection-1-DARK-background-grey: #e8e8e8;
+  --collection-1-text-dark: #1a1a1a;
+  --text-soft-white: #F4F7E0;
+}
+
+.font-open-sans {
+  font-family: var(--font-open-sans), sans-serif;
+}
+
+.font-eb-garamond {
+  font-family: var(--font-eb-garamond), serif;
+  font-style: italic;
+}
